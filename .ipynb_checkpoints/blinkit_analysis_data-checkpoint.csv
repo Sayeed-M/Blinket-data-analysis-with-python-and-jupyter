@@ -1,0 +1,501 @@
+Order_ID,Date,Product_Category,Product_Name,Order_Value,Delivery_Time_Minutes,Customer_Rating,Quantity,Location_Type,Fat_Content,Stock_Level,Profit_Margin,Customer_Count,Day_of_Week,Hour_of_Day
+1,2024-01-01 00:00:00,Bakery,Milk,428,19,2.81,3,Tier 2,High,74,28.19,13,Monday,0
+2,2024-01-01 01:00:00,Beverages,Apples,127,11,3.63,5,Tier 3,High,4,17.14,17,Monday,1
+3,2024-01-01 02:00:00,Fruits & Vegetables,Coffee,459,13,4.83,6,Tier 1,Low,26,18.68,3,Monday,2
+4,2024-01-01 03:00:00,Beverages,Soap,111,23,3.29,5,Tier 1,Low,11,10.55,6,Monday,3
+5,2024-01-01 04:00:00,Beverages,Soap,181,20,3.77,6,Tier 2,Low,16,14.04,5,Monday,4
+6,2024-01-01 05:00:00,Snacks,Oranges,138,12,2.6,8,Tier 2,Regular,5,26.19,17,Monday,5
+7,2024-01-01 06:00:00,Fruits & Vegetables,Apples,286,22,2.87,7,Tier 3,Regular,96,20.16,2,Monday,6
+8,2024-01-01 07:00:00,Fruits & Vegetables,Bread,91,22,4.97,5,Tier 3,Regular,4,32.1,15,Monday,7
+9,2024-01-01 08:00:00,Fruits & Vegetables,Yogurt,138,24,4.91,6,Tier 1,Low,56,34.84,5,Monday,8
+10,2024-01-01 09:00:00,Beverages,Bread,451,11,2.51,4,Tier 2,High,27,23.96,6,Monday,9
+11,2024-01-01 10:00:00,Bakery,Soap,345,7,4.88,9,Tier 2,Low,77,31.54,6,Monday,10
+12,2024-01-01 11:00:00,Fruits & Vegetables,Soap,377,22,4.1,4,Tier 2,Regular,68,15.74,18,Monday,11
+13,2024-01-01 12:00:00,Personal Care,Chips,344,14,4.67,1,Tier 3,Regular,58,19.52,18,Monday,12
+14,2024-01-01 13:00:00,Beverages,Soap,153,11,3.64,7,Tier 2,Low,32,29.95,4,Monday,13
+15,2024-01-01 14:00:00,Snacks,Milk,63,21,3.79,7,Tier 1,Low,61,18.52,17,Monday,14
+16,2024-01-01 15:00:00,Bakery,Tea,337,18,3.72,4,Tier 1,Regular,49,25.6,14,Monday,15
+17,2024-01-01 16:00:00,Personal Care,Apples,228,7,4.17,3,Tier 3,Regular,18,11.49,14,Monday,16
+18,2024-01-01 17:00:00,Personal Care,Bread,174,16,2.85,8,Tier 3,Regular,85,25.99,13,Monday,17
+19,2024-01-01 18:00:00,Snacks,Tea,471,17,2.57,5,Tier 2,Low,68,35.15,7,Monday,18
+20,2024-01-01 19:00:00,Bakery,Coffee,402,6,3.27,7,Tier 3,Regular,65,35.4,12,Monday,19
+21,2024-01-01 20:00:00,Beverages,Yogurt,72,7,4.26,4,Tier 1,Regular,93,30.35,15,Monday,20
+22,2024-01-01 21:00:00,Dairy,Milk,112,9,3.0,4,Tier 2,High,46,31.1,19,Monday,21
+23,2024-01-01 22:00:00,Bakery,Bread,192,15,4.18,8,Tier 1,Low,38,24.53,11,Monday,22
+24,2024-01-01 23:00:00,Snacks,Tea,202,12,4.92,8,Tier 2,High,67,25.46,15,Monday,23
+25,2024-01-02 00:00:00,Personal Care,Yogurt,194,16,2.73,2,Tier 3,High,32,9.68,12,Tuesday,0
+26,2024-01-02 01:00:00,Beverages,Chips,274,11,4.18,2,Tier 2,Regular,12,20.54,3,Tuesday,1
+27,2024-01-02 02:00:00,Bakery,Milk,499,19,3.61,3,Tier 2,Low,83,20.78,17,Tuesday,2
+28,2024-01-02 03:00:00,Dairy,Milk,358,21,4.67,3,Tier 1,Regular,53,38.55,3,Tuesday,3
+29,2024-01-02 04:00:00,Dairy,Chips,153,8,2.94,1,Tier 1,Low,6,20.09,19,Tuesday,4
+30,2024-01-02 05:00:00,Fruits & Vegetables,Apples,153,17,4.23,3,Tier 2,High,78,24.23,4,Tuesday,5
+31,2024-01-02 06:00:00,Fruits & Vegetables,Chips,484,22,4.6,6,Tier 3,Low,86,23.66,3,Tuesday,6
+32,2024-01-02 07:00:00,Snacks,Milk,88,5,4.86,8,Tier 3,Regular,13,27.29,16,Tuesday,7
+33,2024-01-02 08:00:00,Bakery,Milk,484,20,4.21,6,Tier 1,Regular,86,31.19,12,Tuesday,8
+34,2024-01-02 09:00:00,Bakery,Tea,247,17,3.74,5,Tier 3,Regular,18,12.88,8,Tuesday,9
+35,2024-01-02 10:00:00,Personal Care,Soap,183,14,4.04,4,Tier 1,Low,53,23.51,17,Tuesday,10
+36,2024-01-02 11:00:00,Personal Care,Yogurt,116,16,4.67,3,Tier 3,High,92,33.91,7,Tuesday,11
+37,2024-01-02 12:00:00,Personal Care,Chips,440,6,3.93,4,Tier 2,High,19,21.21,11,Tuesday,12
+38,2024-01-02 13:00:00,Fruits & Vegetables,Yogurt,228,7,2.58,7,Tier 1,Low,28,14.75,18,Tuesday,13
+39,2024-01-02 14:00:00,Bakery,Chips,91,14,4.83,1,Tier 1,Regular,23,27.91,1,Tuesday,14
+40,2024-01-02 15:00:00,Bakery,Coffee,497,6,4.22,7,Tier 2,High,81,33.83,3,Tuesday,15
+41,2024-01-02 16:00:00,Dairy,Milk,64,17,4.19,1,Tier 1,Regular,62,7.21,4,Tuesday,16
+42,2024-01-02 17:00:00,Fruits & Vegetables,Soap,160,17,3.04,2,Tier 3,Low,73,32.19,13,Tuesday,17
+43,2024-01-02 18:00:00,Beverages,Tea,206,22,4.15,4,Tier 3,Regular,56,33.76,6,Tuesday,18
+44,2024-01-02 19:00:00,Fruits & Vegetables,Soap,338,7,3.48,1,Tier 1,High,7,21.15,14,Tuesday,19
+45,2024-01-02 20:00:00,Beverages,Soap,280,11,4.13,9,Tier 3,High,89,39.42,5,Tuesday,20
+46,2024-01-02 21:00:00,Dairy,Soap,460,18,2.77,6,Tier 1,Regular,61,32.53,16,Tuesday,21
+47,2024-01-02 22:00:00,Snacks,Yogurt,469,24,4.14,1,Tier 2,Low,28,32.08,15,Tuesday,22
+48,2024-01-02 23:00:00,Bakery,Chips,206,21,5.0,1,Tier 1,Regular,73,31.17,15,Tuesday,23
+49,2024-01-03 00:00:00,Dairy,Shampoo,87,16,2.62,6,Tier 2,Low,16,10.27,4,Wednesday,0
+50,2024-01-03 01:00:00,Bakery,Coffee,490,20,4.94,4,Tier 3,Regular,65,12.6,8,Wednesday,1
+51,2024-01-03 02:00:00,Personal Care,Bread,146,16,3.52,4,Tier 2,High,5,21.24,16,Wednesday,2
+52,2024-01-03 03:00:00,Snacks,Soap,460,19,4.68,6,Tier 3,Low,57,14.24,16,Wednesday,3
+53,2024-01-03 04:00:00,Snacks,Apples,488,14,4.46,7,Tier 1,Low,68,19.53,4,Wednesday,4
+54,2024-01-03 05:00:00,Dairy,Yogurt,338,11,3.92,9,Tier 3,Low,27,36.1,13,Wednesday,5
+55,2024-01-03 06:00:00,Snacks,Tea,303,24,4.35,5,Tier 1,High,61,33.85,13,Wednesday,6
+56,2024-01-03 07:00:00,Beverages,Bread,245,9,4.7,9,Tier 1,Regular,40,27.05,2,Wednesday,7
+57,2024-01-03 08:00:00,Snacks,Shampoo,135,5,3.51,4,Tier 2,High,68,35.03,3,Wednesday,8
+58,2024-01-03 09:00:00,Bakery,Apples,371,21,3.32,2,Tier 2,Low,81,32.43,8,Wednesday,9
+59,2024-01-03 10:00:00,Bakery,Shampoo,59,7,4.17,3,Tier 2,Regular,89,20.01,15,Wednesday,10
+60,2024-01-03 11:00:00,Bakery,Bread,54,17,4.52,1,Tier 2,High,83,12.04,11,Wednesday,11
+61,2024-01-03 12:00:00,Bakery,Soap,172,18,4.41,6,Tier 3,Low,40,23.0,9,Wednesday,12
+62,2024-01-03 13:00:00,Beverages,Apples,379,22,4.49,6,Tier 3,Low,48,30.77,7,Wednesday,13
+63,2024-01-03 14:00:00,Fruits & Vegetables,Shampoo,402,8,3.59,1,Tier 3,High,90,20.27,13,Wednesday,14
+64,2024-01-03 15:00:00,Personal Care,Tea,167,22,4.54,3,Tier 1,High,48,28.34,2,Wednesday,15
+65,2024-01-03 16:00:00,Dairy,Chips,343,9,2.8,5,Tier 3,High,75,8.3,8,Wednesday,16
+66,2024-01-03 17:00:00,Bakery,Milk,446,20,3.86,3,Tier 3,Low,70,31.18,7,Wednesday,17
+67,2024-01-03 18:00:00,Snacks,Chips,208,5,2.51,3,Tier 3,High,2,33.44,12,Wednesday,18
+68,2024-01-03 19:00:00,Bakery,Bread,352,18,3.31,3,Tier 2,Low,9,29.74,19,Wednesday,19
+69,2024-01-03 20:00:00,Snacks,Yogurt,277,19,3.42,5,Tier 3,High,97,38.85,7,Wednesday,20
+70,2024-01-03 21:00:00,Personal Care,Milk,414,13,3.49,5,Tier 1,Low,88,33.93,10,Wednesday,21
+71,2024-01-03 22:00:00,Personal Care,Coffee,265,19,4.24,4,Tier 2,Low,34,36.61,16,Wednesday,22
+72,2024-01-03 23:00:00,Personal Care,Tea,485,21,3.47,1,Tier 1,Regular,79,37.67,3,Wednesday,23
+73,2024-01-04 00:00:00,Snacks,Coffee,233,8,3.62,5,Tier 3,High,1,33.05,10,Thursday,0
+74,2024-01-04 01:00:00,Bakery,Apples,64,16,3.09,5,Tier 2,High,23,28.6,6,Thursday,1
+75,2024-01-04 02:00:00,Personal Care,Milk,206,9,3.43,4,Tier 1,Low,73,5.2,18,Thursday,2
+76,2024-01-04 03:00:00,Beverages,Coffee,185,9,3.07,6,Tier 3,Low,37,21.3,18,Thursday,3
+77,2024-01-04 04:00:00,Snacks,Coffee,310,15,2.68,4,Tier 1,Low,21,24.99,5,Thursday,4
+78,2024-01-04 05:00:00,Snacks,Shampoo,206,10,4.01,7,Tier 1,Regular,25,15.64,7,Thursday,5
+79,2024-01-04 06:00:00,Bakery,Chips,96,11,4.17,7,Tier 1,Regular,42,16.13,2,Thursday,6
+80,2024-01-04 07:00:00,Snacks,Shampoo,373,18,4.05,2,Tier 3,Low,54,38.64,11,Thursday,7
+81,2024-01-04 08:00:00,Snacks,Milk,381,15,3.66,3,Tier 3,High,38,36.21,13,Thursday,8
+82,2024-01-04 09:00:00,Personal Care,Milk,222,17,3.45,1,Tier 1,High,90,34.72,5,Thursday,9
+83,2024-01-04 10:00:00,Bakery,Bread,179,6,4.66,8,Tier 2,Regular,28,19.21,6,Thursday,10
+84,2024-01-04 11:00:00,Personal Care,Shampoo,460,11,3.8,9,Tier 2,Regular,19,5.48,14,Thursday,11
+85,2024-01-04 12:00:00,Personal Care,Oranges,144,24,3.7,4,Tier 3,Low,90,7.81,12,Thursday,12
+86,2024-01-04 13:00:00,Bakery,Chips,164,8,2.56,6,Tier 3,High,40,15.93,4,Thursday,13
+87,2024-01-04 14:00:00,Dairy,Milk,292,12,3.35,9,Tier 3,Low,53,5.55,6,Thursday,14
+88,2024-01-04 15:00:00,Personal Care,Bread,469,24,3.45,6,Tier 3,Regular,19,5.6,10,Thursday,15
+89,2024-01-04 16:00:00,Beverages,Shampoo,341,23,3.5,9,Tier 3,High,18,37.08,18,Thursday,16
+90,2024-01-04 17:00:00,Beverages,Chips,331,17,3.95,4,Tier 2,High,83,29.72,15,Thursday,17
+91,2024-01-04 18:00:00,Snacks,Shampoo,348,18,3.83,8,Tier 3,Regular,98,15.81,8,Thursday,18
+92,2024-01-04 19:00:00,Beverages,Coffee,332,14,4.02,9,Tier 1,Low,65,9.64,9,Thursday,19
+93,2024-01-04 20:00:00,Snacks,Bread,118,15,4.41,4,Tier 1,Low,29,22.91,5,Thursday,20
+94,2024-01-04 21:00:00,Dairy,Chips,197,6,4.53,5,Tier 2,High,52,5.19,10,Thursday,21
+95,2024-01-04 22:00:00,Bakery,Soap,60,13,4.3,8,Tier 1,Regular,33,37.84,6,Thursday,22
+96,2024-01-04 23:00:00,Bakery,Apples,303,21,4.89,6,Tier 2,High,21,19.52,16,Thursday,23
+97,2024-01-05 00:00:00,Bakery,Apples,379,7,2.55,7,Tier 2,Regular,66,19.08,3,Friday,0
+98,2024-01-05 01:00:00,Beverages,Chips,409,10,2.99,3,Tier 1,Low,5,18.67,10,Friday,1
+99,2024-01-05 02:00:00,Dairy,Shampoo,87,9,2.52,7,Tier 3,Regular,78,7.43,11,Friday,2
+100,2024-01-05 03:00:00,Beverages,Bread,183,9,4.12,8,Tier 1,Low,26,27.34,11,Friday,3
+101,2024-01-05 04:00:00,Beverages,Apples,249,19,4.75,6,Tier 1,Regular,9,30.66,17,Friday,4
+102,2024-01-05 05:00:00,Dairy,Bread,72,21,3.11,9,Tier 2,High,72,28.66,4,Friday,5
+103,2024-01-05 06:00:00,Dairy,Apples,352,13,4.82,6,Tier 1,Low,96,9.85,4,Friday,6
+104,2024-01-05 07:00:00,Dairy,Coffee,395,7,2.65,9,Tier 2,High,95,25.26,17,Friday,7
+105,2024-01-05 08:00:00,Dairy,Shampoo,351,24,4.84,4,Tier 3,High,47,24.93,9,Friday,8
+106,2024-01-05 09:00:00,Bakery,Coffee,412,21,3.38,8,Tier 3,Low,69,35.39,19,Friday,9
+107,2024-01-05 10:00:00,Fruits & Vegetables,Apples,445,14,2.75,4,Tier 3,Low,58,18.27,5,Friday,10
+108,2024-01-05 11:00:00,Fruits & Vegetables,Soap,267,7,3.71,2,Tier 1,High,99,18.0,6,Friday,11
+109,2024-01-05 12:00:00,Dairy,Soap,190,22,3.14,9,Tier 2,High,58,26.65,3,Friday,12
+110,2024-01-05 13:00:00,Fruits & Vegetables,Coffee,153,22,3.21,5,Tier 3,High,1,27.16,1,Friday,13
+111,2024-01-05 14:00:00,Fruits & Vegetables,Soap,495,21,3.27,4,Tier 2,High,28,21.42,16,Friday,14
+112,2024-01-05 15:00:00,Dairy,Apples,259,7,4.51,2,Tier 2,Low,67,20.51,11,Friday,15
+113,2024-01-05 16:00:00,Fruits & Vegetables,Chips,160,7,3.85,1,Tier 3,Low,64,22.3,13,Friday,16
+114,2024-01-05 17:00:00,Beverages,Coffee,153,10,3.28,7,Tier 3,High,82,35.14,10,Friday,17
+115,2024-01-05 18:00:00,Snacks,Yogurt,365,17,4.03,6,Tier 2,Regular,25,21.14,3,Friday,18
+116,2024-01-05 19:00:00,Snacks,Shampoo,220,19,4.29,2,Tier 3,Regular,88,37.9,9,Friday,19
+117,2024-01-05 20:00:00,Dairy,Soap,405,13,3.18,8,Tier 2,Low,9,22.64,12,Friday,20
+118,2024-01-05 21:00:00,Bakery,Soap,373,8,3.53,4,Tier 2,High,52,38.22,14,Friday,21
+119,2024-01-05 22:00:00,Dairy,Milk,182,18,2.8,8,Tier 3,High,78,34.15,1,Friday,22
+120,2024-01-05 23:00:00,Bakery,Oranges,425,9,2.95,7,Tier 1,Low,58,17.69,18,Friday,23
+121,2024-01-06 00:00:00,Snacks,Coffee,342,6,4.2,5,Tier 3,Regular,21,35.23,17,Saturday,0
+122,2024-01-06 01:00:00,Dairy,Tea,377,15,2.95,8,Tier 1,Regular,50,8.85,9,Saturday,1
+123,2024-01-06 02:00:00,Personal Care,Soap,176,13,3.81,9,Tier 2,Regular,47,37.38,9,Saturday,2
+124,2024-01-06 03:00:00,Beverages,Shampoo,155,7,4.27,5,Tier 2,Low,20,27.11,10,Saturday,3
+125,2024-01-06 04:00:00,Fruits & Vegetables,Yogurt,141,13,2.77,5,Tier 1,Regular,21,6.9,19,Saturday,4
+126,2024-01-06 05:00:00,Bakery,Soap,336,7,3.92,2,Tier 2,Low,99,27.55,15,Saturday,5
+127,2024-01-06 06:00:00,Personal Care,Yogurt,427,6,3.14,5,Tier 1,Low,97,39.1,5,Saturday,6
+128,2024-01-06 07:00:00,Fruits & Vegetables,Apples,442,16,4.91,3,Tier 1,High,29,7.44,15,Saturday,7
+129,2024-01-06 08:00:00,Fruits & Vegetables,Apples,100,14,3.71,7,Tier 2,Regular,24,24.41,2,Saturday,8
+130,2024-01-06 09:00:00,Dairy,Oranges,78,13,4.51,5,Tier 1,Low,27,31.17,13,Saturday,9
+131,2024-01-06 10:00:00,Fruits & Vegetables,Chips,345,19,3.88,8,Tier 3,Regular,64,33.36,16,Saturday,10
+132,2024-01-06 11:00:00,Beverages,Tea,346,12,2.61,1,Tier 3,Regular,44,19.48,15,Saturday,11
+133,2024-01-06 12:00:00,Personal Care,Milk,263,9,4.08,3,Tier 2,High,67,12.15,10,Saturday,12
+134,2024-01-06 13:00:00,Fruits & Vegetables,Oranges,316,15,4.88,3,Tier 2,Regular,6,6.48,14,Saturday,13
+135,2024-01-06 14:00:00,Dairy,Bread,456,6,4.0,9,Tier 1,High,48,25.29,10,Saturday,14
+136,2024-01-06 15:00:00,Beverages,Milk,306,19,4.55,5,Tier 1,Low,8,20.85,14,Saturday,15
+137,2024-01-06 16:00:00,Snacks,Coffee,351,10,4.71,9,Tier 1,Regular,35,38.21,9,Saturday,16
+138,2024-01-06 17:00:00,Personal Care,Shampoo,150,12,3.07,9,Tier 1,Low,82,7.12,14,Saturday,17
+139,2024-01-06 18:00:00,Fruits & Vegetables,Bread,454,9,3.03,1,Tier 3,Regular,0,28.99,3,Saturday,18
+140,2024-01-06 19:00:00,Dairy,Bread,395,20,4.03,2,Tier 3,Low,9,5.87,16,Saturday,19
+141,2024-01-06 20:00:00,Snacks,Oranges,159,22,3.53,5,Tier 2,Regular,35,11.0,2,Saturday,20
+142,2024-01-06 21:00:00,Snacks,Chips,469,10,4.6,4,Tier 1,Regular,72,20.88,10,Saturday,21
+143,2024-01-06 22:00:00,Bakery,Oranges,231,9,4.75,9,Tier 1,Regular,45,20.92,3,Saturday,22
+144,2024-01-06 23:00:00,Beverages,Coffee,362,20,3.38,7,Tier 2,Regular,31,29.0,11,Saturday,23
+145,2024-01-07 00:00:00,Fruits & Vegetables,Soap,50,17,3.09,6,Tier 1,Regular,31,36.86,11,Sunday,0
+146,2024-01-07 01:00:00,Dairy,Soap,368,9,4.45,7,Tier 1,Regular,5,27.37,13,Sunday,1
+147,2024-01-07 02:00:00,Bakery,Chips,487,17,3.19,1,Tier 1,Regular,47,38.37,7,Sunday,2
+148,2024-01-07 03:00:00,Beverages,Coffee,104,21,4.56,1,Tier 1,Regular,37,35.86,17,Sunday,3
+149,2024-01-07 04:00:00,Bakery,Chips,420,22,3.56,8,Tier 1,Regular,16,25.46,2,Sunday,4
+150,2024-01-07 05:00:00,Personal Care,Yogurt,473,12,4.17,2,Tier 2,Low,73,34.18,12,Sunday,5
+151,2024-01-07 06:00:00,Beverages,Soap,448,17,2.74,9,Tier 1,High,26,27.49,10,Sunday,6
+152,2024-01-07 07:00:00,Beverages,Bread,198,23,4.06,7,Tier 2,Regular,53,7.75,18,Sunday,7
+153,2024-01-07 08:00:00,Fruits & Vegetables,Tea,480,7,3.63,6,Tier 1,High,49,30.92,11,Sunday,8
+154,2024-01-07 09:00:00,Beverages,Shampoo,358,12,3.97,1,Tier 3,Regular,34,8.32,16,Sunday,9
+155,2024-01-07 10:00:00,Bakery,Coffee,186,6,2.92,1,Tier 3,Regular,84,25.79,17,Sunday,10
+156,2024-01-07 11:00:00,Beverages,Milk,251,12,4.34,2,Tier 3,Low,24,29.59,19,Sunday,11
+157,2024-01-07 12:00:00,Fruits & Vegetables,Chips,485,17,4.66,6,Tier 3,Low,27,7.33,18,Sunday,12
+158,2024-01-07 13:00:00,Fruits & Vegetables,Shampoo,362,17,3.04,6,Tier 2,High,14,13.08,3,Sunday,13
+159,2024-01-07 14:00:00,Personal Care,Milk,166,5,2.74,2,Tier 2,Low,3,37.05,16,Sunday,14
+160,2024-01-07 15:00:00,Bakery,Shampoo,203,10,2.56,1,Tier 1,Low,92,26.57,6,Sunday,15
+161,2024-01-07 16:00:00,Snacks,Tea,474,23,4.1,5,Tier 3,High,72,13.62,12,Sunday,16
+162,2024-01-07 17:00:00,Snacks,Milk,340,20,4.02,5,Tier 2,Low,26,29.17,11,Sunday,17
+163,2024-01-07 18:00:00,Beverages,Oranges,112,12,3.87,2,Tier 1,Regular,25,25.89,15,Sunday,18
+164,2024-01-07 19:00:00,Personal Care,Apples,293,5,3.08,6,Tier 1,High,18,22.56,15,Sunday,19
+165,2024-01-07 20:00:00,Dairy,Oranges,74,20,3.48,9,Tier 2,High,91,39.17,16,Sunday,20
+166,2024-01-07 21:00:00,Beverages,Soap,139,13,3.99,2,Tier 3,Regular,16,28.92,10,Sunday,21
+167,2024-01-07 22:00:00,Personal Care,Apples,124,17,3.74,2,Tier 1,Low,42,18.14,12,Sunday,22
+168,2024-01-07 23:00:00,Bakery,Oranges,343,15,4.97,3,Tier 3,High,40,33.0,13,Sunday,23
+169,2024-01-08 00:00:00,Bakery,Apples,435,17,2.84,7,Tier 3,High,41,35.96,4,Monday,0
+170,2024-01-08 01:00:00,Bakery,Apples,440,14,4.24,6,Tier 3,Regular,49,9.38,7,Monday,1
+171,2024-01-08 02:00:00,Bakery,Bread,259,8,3.51,8,Tier 1,Regular,83,12.02,2,Monday,2
+172,2024-01-08 03:00:00,Bakery,Chips,467,10,3.57,8,Tier 3,Low,39,12.57,15,Monday,3
+173,2024-01-08 04:00:00,Personal Care,Chips,396,11,4.29,6,Tier 1,High,38,29.19,8,Monday,4
+174,2024-01-08 05:00:00,Personal Care,Bread,66,9,4.23,3,Tier 3,Low,22,26.11,7,Monday,5
+175,2024-01-08 06:00:00,Fruits & Vegetables,Shampoo,177,15,4.98,3,Tier 1,Low,95,26.66,15,Monday,6
+176,2024-01-08 07:00:00,Snacks,Yogurt,476,17,2.82,1,Tier 3,Regular,51,37.93,14,Monday,7
+177,2024-01-08 08:00:00,Bakery,Shampoo,492,23,2.76,7,Tier 2,High,46,32.16,8,Monday,8
+178,2024-01-08 09:00:00,Dairy,Milk,413,14,4.31,5,Tier 3,High,62,9.48,12,Monday,9
+179,2024-01-08 10:00:00,Personal Care,Milk,300,14,3.95,4,Tier 3,High,96,17.16,13,Monday,10
+180,2024-01-08 11:00:00,Dairy,Apples,228,15,3.19,4,Tier 1,Regular,68,20.24,11,Monday,11
+181,2024-01-08 12:00:00,Dairy,Oranges,231,11,2.7,4,Tier 1,Regular,42,18.86,17,Monday,12
+182,2024-01-08 13:00:00,Dairy,Oranges,201,22,2.71,6,Tier 3,Regular,47,28.43,17,Monday,13
+183,2024-01-08 14:00:00,Fruits & Vegetables,Chips,74,8,4.74,8,Tier 2,Regular,33,36.22,4,Monday,14
+184,2024-01-08 15:00:00,Personal Care,Coffee,229,6,2.98,8,Tier 2,Regular,39,15.71,8,Monday,15
+185,2024-01-08 16:00:00,Dairy,Shampoo,247,18,3.31,5,Tier 1,High,74,24.32,5,Monday,16
+186,2024-01-08 17:00:00,Bakery,Soap,393,17,3.07,6,Tier 2,Low,60,32.63,16,Monday,17
+187,2024-01-08 18:00:00,Beverages,Tea,210,16,3.39,4,Tier 3,High,49,19.57,4,Monday,18
+188,2024-01-08 19:00:00,Dairy,Oranges,226,11,2.67,9,Tier 1,Low,66,10.88,15,Monday,19
+189,2024-01-08 20:00:00,Fruits & Vegetables,Tea,334,6,3.8,8,Tier 3,Regular,61,21.62,12,Monday,20
+190,2024-01-08 21:00:00,Personal Care,Apples,112,17,2.67,1,Tier 1,Low,57,6.93,5,Monday,21
+191,2024-01-08 22:00:00,Fruits & Vegetables,Tea,199,18,4.5,2,Tier 1,High,32,37.98,16,Monday,22
+192,2024-01-08 23:00:00,Dairy,Soap,203,21,3.08,9,Tier 1,High,74,7.62,14,Monday,23
+193,2024-01-09 00:00:00,Personal Care,Bread,205,13,3.85,8,Tier 1,Low,15,20.35,10,Tuesday,0
+194,2024-01-09 01:00:00,Beverages,Soap,419,21,4.7,3,Tier 2,Regular,81,23.55,7,Tuesday,1
+195,2024-01-09 02:00:00,Dairy,Tea,98,12,4.13,8,Tier 3,Regular,93,39.49,13,Tuesday,2
+196,2024-01-09 03:00:00,Fruits & Vegetables,Soap,386,6,3.83,1,Tier 3,High,47,10.81,5,Tuesday,3
+197,2024-01-09 04:00:00,Snacks,Yogurt,133,17,3.31,4,Tier 3,Low,9,9.01,3,Tuesday,4
+198,2024-01-09 05:00:00,Bakery,Apples,410,7,3.33,3,Tier 1,Regular,81,5.3,15,Tuesday,5
+199,2024-01-09 06:00:00,Fruits & Vegetables,Shampoo,226,20,4.17,6,Tier 2,Regular,37,10.45,4,Tuesday,6
+200,2024-01-09 07:00:00,Personal Care,Bread,197,10,4.99,7,Tier 3,High,18,12.25,15,Tuesday,7
+201,2024-01-09 08:00:00,Dairy,Oranges,167,23,4.15,4,Tier 2,Regular,35,27.07,14,Tuesday,8
+202,2024-01-09 09:00:00,Bakery,Milk,391,11,3.89,7,Tier 1,Low,58,12.69,19,Tuesday,9
+203,2024-01-09 10:00:00,Dairy,Shampoo,112,14,4.33,9,Tier 3,High,62,5.72,13,Tuesday,10
+204,2024-01-09 11:00:00,Personal Care,Milk,238,13,3.66,2,Tier 2,High,76,33.93,10,Tuesday,11
+205,2024-01-09 12:00:00,Dairy,Apples,409,6,2.65,3,Tier 1,Low,45,17.8,5,Tuesday,12
+206,2024-01-09 13:00:00,Snacks,Bread,98,19,3.91,5,Tier 2,High,2,17.38,6,Tuesday,13
+207,2024-01-09 14:00:00,Bakery,Chips,376,9,4.89,3,Tier 3,Regular,73,15.59,4,Tuesday,14
+208,2024-01-09 15:00:00,Bakery,Oranges,306,8,2.94,8,Tier 3,Regular,64,39.14,2,Tuesday,15
+209,2024-01-09 16:00:00,Personal Care,Yogurt,273,24,4.23,8,Tier 1,Low,90,10.95,16,Tuesday,16
+210,2024-01-09 17:00:00,Snacks,Chips,190,8,3.0,8,Tier 1,Regular,7,36.44,18,Tuesday,17
+211,2024-01-09 18:00:00,Fruits & Vegetables,Apples,264,22,3.84,9,Tier 1,Low,50,32.19,5,Tuesday,18
+212,2024-01-09 19:00:00,Dairy,Shampoo,484,8,2.74,4,Tier 2,Low,80,7.68,4,Tuesday,19
+213,2024-01-09 20:00:00,Beverages,Yogurt,428,21,3.63,5,Tier 2,Regular,72,39.54,13,Tuesday,20
+214,2024-01-09 21:00:00,Dairy,Soap,489,16,4.39,5,Tier 2,Low,5,14.5,19,Tuesday,21
+215,2024-01-09 22:00:00,Dairy,Tea,260,21,3.37,8,Tier 1,Regular,88,8.45,2,Tuesday,22
+216,2024-01-09 23:00:00,Fruits & Vegetables,Yogurt,367,14,4.16,7,Tier 3,High,38,34.03,13,Tuesday,23
+217,2024-01-10 00:00:00,Dairy,Apples,81,5,4.49,9,Tier 3,High,59,29.73,11,Wednesday,0
+218,2024-01-10 01:00:00,Snacks,Coffee,207,22,4.82,8,Tier 2,Low,27,26.6,4,Wednesday,1
+219,2024-01-10 02:00:00,Snacks,Tea,334,22,3.09,2,Tier 2,Regular,96,10.46,15,Wednesday,2
+220,2024-01-10 03:00:00,Bakery,Milk,354,18,3.5,4,Tier 3,Regular,53,21.75,4,Wednesday,3
+221,2024-01-10 04:00:00,Personal Care,Oranges,478,19,2.88,6,Tier 3,High,36,32.32,9,Wednesday,4
+222,2024-01-10 05:00:00,Beverages,Milk,335,16,4.98,2,Tier 2,High,8,15.63,7,Wednesday,5
+223,2024-01-10 06:00:00,Dairy,Yogurt,193,8,4.82,7,Tier 2,Regular,81,15.91,19,Wednesday,6
+224,2024-01-10 07:00:00,Dairy,Milk,473,7,3.85,3,Tier 3,Low,55,5.11,19,Wednesday,7
+225,2024-01-10 08:00:00,Fruits & Vegetables,Apples,68,24,4.61,3,Tier 1,High,58,11.1,6,Wednesday,8
+226,2024-01-10 09:00:00,Personal Care,Soap,67,16,3.8,2,Tier 2,Low,84,35.64,6,Wednesday,9
+227,2024-01-10 10:00:00,Snacks,Shampoo,306,11,4.06,8,Tier 3,Low,1,20.46,15,Wednesday,10
+228,2024-01-10 11:00:00,Beverages,Oranges,127,15,2.72,6,Tier 3,High,60,39.45,15,Wednesday,11
+229,2024-01-10 12:00:00,Bakery,Milk,420,5,4.39,1,Tier 3,Low,57,18.85,9,Wednesday,12
+230,2024-01-10 13:00:00,Snacks,Milk,224,10,2.82,1,Tier 3,Low,59,30.03,4,Wednesday,13
+231,2024-01-10 14:00:00,Personal Care,Yogurt,243,19,4.57,7,Tier 1,Regular,39,14.87,18,Wednesday,14
+232,2024-01-10 15:00:00,Bakery,Shampoo,162,19,4.46,8,Tier 3,Low,35,17.73,18,Wednesday,15
+233,2024-01-10 16:00:00,Fruits & Vegetables,Chips,163,23,4.27,5,Tier 2,Regular,36,11.68,5,Wednesday,16
+234,2024-01-10 17:00:00,Fruits & Vegetables,Milk,271,15,2.59,5,Tier 1,High,78,17.15,11,Wednesday,17
+235,2024-01-10 18:00:00,Dairy,Apples,215,6,3.26,4,Tier 3,High,91,24.15,5,Wednesday,18
+236,2024-01-10 19:00:00,Personal Care,Coffee,484,18,3.16,6,Tier 1,Regular,17,39.71,4,Wednesday,19
+237,2024-01-10 20:00:00,Beverages,Oranges,368,6,3.4,6,Tier 2,High,97,28.25,12,Wednesday,20
+238,2024-01-10 21:00:00,Bakery,Milk,181,8,2.72,3,Tier 3,Low,62,11.97,2,Wednesday,21
+239,2024-01-10 22:00:00,Snacks,Apples,434,21,4.84,9,Tier 2,Low,21,6.57,13,Wednesday,22
+240,2024-01-10 23:00:00,Personal Care,Apples,313,7,3.88,7,Tier 3,Low,10,9.42,10,Wednesday,23
+241,2024-01-11 00:00:00,Personal Care,Oranges,462,17,3.26,1,Tier 3,High,57,24.69,9,Thursday,0
+242,2024-01-11 01:00:00,Fruits & Vegetables,Chips,104,13,3.49,7,Tier 3,Low,56,31.78,10,Thursday,1
+243,2024-01-11 02:00:00,Dairy,Apples,408,11,3.62,5,Tier 3,High,76,37.91,7,Thursday,2
+244,2024-01-11 03:00:00,Dairy,Coffee,180,19,4.0,5,Tier 3,Low,3,5.55,4,Thursday,3
+245,2024-01-11 04:00:00,Bakery,Apples,337,15,3.79,2,Tier 1,Regular,85,23.3,19,Thursday,4
+246,2024-01-11 05:00:00,Fruits & Vegetables,Apples,315,24,4.8,4,Tier 3,High,6,21.48,10,Thursday,5
+247,2024-01-11 06:00:00,Personal Care,Apples,415,6,3.74,6,Tier 3,High,60,27.96,3,Thursday,6
+248,2024-01-11 07:00:00,Beverages,Soap,211,19,4.98,7,Tier 1,Low,53,24.59,19,Thursday,7
+249,2024-01-11 08:00:00,Fruits & Vegetables,Soap,429,18,4.63,5,Tier 1,High,87,29.05,2,Thursday,8
+250,2024-01-11 09:00:00,Bakery,Chips,136,24,3.02,9,Tier 1,High,67,28.03,10,Thursday,9
+251,2024-01-11 10:00:00,Bakery,Milk,104,15,4.83,3,Tier 1,Regular,91,9.1,2,Thursday,10
+252,2024-01-11 11:00:00,Fruits & Vegetables,Apples,337,7,2.79,1,Tier 1,Regular,78,32.99,2,Thursday,11
+253,2024-01-11 12:00:00,Bakery,Shampoo,227,21,4.54,4,Tier 1,Low,0,9.31,17,Thursday,12
+254,2024-01-11 13:00:00,Fruits & Vegetables,Milk,440,16,3.45,9,Tier 3,Regular,54,29.45,16,Thursday,13
+255,2024-01-11 14:00:00,Snacks,Chips,398,19,4.69,4,Tier 3,Low,2,19.57,16,Thursday,14
+256,2024-01-11 15:00:00,Fruits & Vegetables,Bread,57,20,4.67,2,Tier 2,Low,77,22.98,14,Thursday,15
+257,2024-01-11 16:00:00,Fruits & Vegetables,Milk,370,9,4.51,5,Tier 3,Low,37,36.62,7,Thursday,16
+258,2024-01-11 17:00:00,Bakery,Milk,362,24,4.48,3,Tier 3,High,0,36.15,11,Thursday,17
+259,2024-01-11 18:00:00,Bakery,Tea,296,10,3.26,9,Tier 1,Regular,37,33.62,1,Thursday,18
+260,2024-01-11 19:00:00,Dairy,Yogurt,372,23,2.7,4,Tier 1,Low,84,22.86,11,Thursday,19
+261,2024-01-11 20:00:00,Dairy,Tea,492,9,3.51,6,Tier 3,Regular,28,30.77,4,Thursday,20
+262,2024-01-11 21:00:00,Snacks,Coffee,304,7,2.93,2,Tier 2,Low,4,22.95,7,Thursday,21
+263,2024-01-11 22:00:00,Dairy,Soap,377,5,4.24,6,Tier 1,Regular,73,35.44,15,Thursday,22
+264,2024-01-11 23:00:00,Fruits & Vegetables,Soap,103,10,3.37,3,Tier 3,Regular,91,19.1,18,Thursday,23
+265,2024-01-12 00:00:00,Bakery,Yogurt,298,19,4.94,9,Tier 3,Low,20,38.96,12,Friday,0
+266,2024-01-12 01:00:00,Dairy,Oranges,288,6,4.1,2,Tier 2,High,70,37.63,17,Friday,1
+267,2024-01-12 02:00:00,Dairy,Oranges,278,7,4.56,9,Tier 2,Regular,66,30.96,1,Friday,2
+268,2024-01-12 03:00:00,Snacks,Chips,116,21,2.83,5,Tier 1,High,46,14.78,11,Friday,3
+269,2024-01-12 04:00:00,Personal Care,Yogurt,100,16,4.66,8,Tier 2,High,83,9.61,1,Friday,4
+270,2024-01-12 05:00:00,Snacks,Milk,146,22,4.81,2,Tier 3,Low,82,34.91,15,Friday,5
+271,2024-01-12 06:00:00,Fruits & Vegetables,Oranges,141,19,3.72,6,Tier 3,Low,34,10.79,10,Friday,6
+272,2024-01-12 07:00:00,Bakery,Apples,313,16,4.02,3,Tier 2,Low,67,34.9,7,Friday,7
+273,2024-01-12 08:00:00,Snacks,Shampoo,467,20,4.41,5,Tier 2,Regular,68,22.18,2,Friday,8
+274,2024-01-12 09:00:00,Dairy,Milk,340,12,2.94,8,Tier 2,Low,0,19.23,10,Friday,9
+275,2024-01-12 10:00:00,Bakery,Coffee,145,18,3.76,1,Tier 2,Low,67,36.61,4,Friday,10
+276,2024-01-12 11:00:00,Bakery,Apples,137,21,3.5,5,Tier 1,Regular,11,26.13,12,Friday,11
+277,2024-01-12 12:00:00,Dairy,Apples,127,12,2.87,3,Tier 2,Regular,59,25.18,19,Friday,12
+278,2024-01-12 13:00:00,Snacks,Yogurt,337,19,3.42,4,Tier 1,Low,26,24.56,11,Friday,13
+279,2024-01-12 14:00:00,Dairy,Chips,169,18,2.67,2,Tier 3,Low,55,17.99,8,Friday,14
+280,2024-01-12 15:00:00,Personal Care,Coffee,351,22,2.56,9,Tier 2,Low,22,32.5,18,Friday,15
+281,2024-01-12 16:00:00,Bakery,Oranges,449,24,2.84,3,Tier 1,Low,24,13.85,11,Friday,16
+282,2024-01-12 17:00:00,Beverages,Yogurt,214,11,4.91,2,Tier 2,High,20,37.86,11,Friday,17
+283,2024-01-12 18:00:00,Beverages,Oranges,231,7,3.87,9,Tier 3,High,60,36.29,13,Friday,18
+284,2024-01-12 19:00:00,Fruits & Vegetables,Yogurt,447,16,4.91,7,Tier 3,Low,62,16.81,3,Friday,19
+285,2024-01-12 20:00:00,Dairy,Yogurt,272,7,3.58,6,Tier 3,High,51,30.53,12,Friday,20
+286,2024-01-12 21:00:00,Dairy,Yogurt,360,24,3.28,1,Tier 2,Regular,87,25.06,3,Friday,21
+287,2024-01-12 22:00:00,Fruits & Vegetables,Chips,481,18,3.77,5,Tier 2,High,24,16.82,10,Friday,22
+288,2024-01-12 23:00:00,Fruits & Vegetables,Yogurt,56,19,3.6,3,Tier 1,High,54,39.6,17,Friday,23
+289,2024-01-13 00:00:00,Fruits & Vegetables,Bread,379,18,2.76,1,Tier 3,Low,45,5.88,2,Saturday,0
+290,2024-01-13 01:00:00,Bakery,Shampoo,312,11,4.1,4,Tier 2,High,31,13.84,17,Saturday,1
+291,2024-01-13 02:00:00,Personal Care,Oranges,210,21,3.04,2,Tier 3,High,54,23.2,16,Saturday,2
+292,2024-01-13 03:00:00,Dairy,Milk,200,16,4.05,2,Tier 3,High,95,23.27,2,Saturday,3
+293,2024-01-13 04:00:00,Bakery,Tea,134,24,4.13,3,Tier 1,High,4,25.61,6,Saturday,4
+294,2024-01-13 05:00:00,Fruits & Vegetables,Coffee,196,8,2.88,8,Tier 1,Regular,35,31.31,10,Saturday,5
+295,2024-01-13 06:00:00,Dairy,Soap,161,13,2.65,8,Tier 1,Low,48,26.82,10,Saturday,6
+296,2024-01-13 07:00:00,Bakery,Chips,430,10,4.45,7,Tier 1,Low,57,26.01,8,Saturday,7
+297,2024-01-13 08:00:00,Personal Care,Milk,452,20,3.65,6,Tier 3,Regular,38,6.87,1,Saturday,8
+298,2024-01-13 09:00:00,Bakery,Apples,85,6,2.65,9,Tier 1,High,79,18.18,13,Saturday,9
+299,2024-01-13 10:00:00,Personal Care,Bread,334,12,4.99,4,Tier 1,Regular,96,13.12,9,Saturday,10
+300,2024-01-13 11:00:00,Fruits & Vegetables,Soap,237,15,2.64,1,Tier 1,High,84,14.29,10,Saturday,11
+301,2024-01-13 12:00:00,Personal Care,Tea,131,17,4.24,8,Tier 1,Regular,60,24.4,15,Saturday,12
+302,2024-01-13 13:00:00,Dairy,Milk,51,21,4.96,7,Tier 3,Low,8,11.98,5,Saturday,13
+303,2024-01-13 14:00:00,Fruits & Vegetables,Soap,434,12,3.1,7,Tier 1,Low,5,15.29,16,Saturday,14
+304,2024-01-13 15:00:00,Dairy,Milk,352,22,2.86,3,Tier 3,Low,34,13.3,13,Saturday,15
+305,2024-01-13 16:00:00,Beverages,Bread,246,22,2.8,4,Tier 2,High,38,38.2,18,Saturday,16
+306,2024-01-13 17:00:00,Snacks,Tea,453,18,3.26,9,Tier 3,High,21,38.06,11,Saturday,17
+307,2024-01-13 18:00:00,Personal Care,Apples,60,19,2.75,6,Tier 3,Regular,40,26.35,9,Saturday,18
+308,2024-01-13 19:00:00,Snacks,Yogurt,283,10,4.23,5,Tier 1,Regular,4,37.36,16,Saturday,19
+309,2024-01-13 20:00:00,Snacks,Oranges,435,15,2.66,3,Tier 2,Low,41,32.5,2,Saturday,20
+310,2024-01-13 21:00:00,Personal Care,Apples,244,17,3.77,9,Tier 2,High,86,25.65,2,Saturday,21
+311,2024-01-13 22:00:00,Fruits & Vegetables,Yogurt,168,5,4.99,5,Tier 2,Regular,80,5.23,12,Saturday,22
+312,2024-01-13 23:00:00,Beverages,Chips,445,10,4.53,5,Tier 2,High,75,32.04,8,Saturday,23
+313,2024-01-14 00:00:00,Dairy,Shampoo,69,13,4.04,4,Tier 3,High,86,29.59,9,Sunday,0
+314,2024-01-14 01:00:00,Bakery,Coffee,310,12,3.27,4,Tier 2,Low,79,26.53,12,Sunday,1
+315,2024-01-14 02:00:00,Dairy,Coffee,342,15,4.06,1,Tier 3,Low,66,31.61,9,Sunday,2
+316,2024-01-14 03:00:00,Bakery,Oranges,471,23,3.82,7,Tier 3,High,29,22.95,10,Sunday,3
+317,2024-01-14 04:00:00,Dairy,Tea,305,13,3.57,9,Tier 3,High,56,29.64,2,Sunday,4
+318,2024-01-14 05:00:00,Personal Care,Bread,271,21,2.83,3,Tier 2,High,85,37.73,16,Sunday,5
+319,2024-01-14 06:00:00,Beverages,Tea,442,16,4.72,2,Tier 1,High,72,18.15,7,Sunday,6
+320,2024-01-14 07:00:00,Bakery,Bread,275,18,3.62,3,Tier 1,Low,28,29.78,2,Sunday,7
+321,2024-01-14 08:00:00,Fruits & Vegetables,Tea,102,19,2.99,1,Tier 2,Regular,36,21.65,1,Sunday,8
+322,2024-01-14 09:00:00,Dairy,Shampoo,477,20,3.42,6,Tier 1,Low,86,28.6,19,Sunday,9
+323,2024-01-14 10:00:00,Dairy,Chips,404,24,3.54,7,Tier 1,Regular,12,31.7,4,Sunday,10
+324,2024-01-14 11:00:00,Bakery,Chips,391,5,4.57,2,Tier 3,High,31,6.59,2,Sunday,11
+325,2024-01-14 12:00:00,Fruits & Vegetables,Yogurt,413,14,4.33,8,Tier 3,Regular,45,27.63,14,Sunday,12
+326,2024-01-14 13:00:00,Fruits & Vegetables,Soap,329,12,4.42,6,Tier 2,Low,22,12.94,2,Sunday,13
+327,2024-01-14 14:00:00,Personal Care,Chips,130,22,2.53,4,Tier 2,Low,44,28.45,15,Sunday,14
+328,2024-01-14 15:00:00,Personal Care,Chips,251,5,3.54,5,Tier 1,High,16,21.39,12,Sunday,15
+329,2024-01-14 16:00:00,Personal Care,Apples,207,6,3.7,8,Tier 3,Low,84,32.07,5,Sunday,16
+330,2024-01-14 17:00:00,Personal Care,Apples,169,5,2.55,3,Tier 2,High,65,9.32,7,Sunday,17
+331,2024-01-14 18:00:00,Personal Care,Yogurt,108,5,3.15,3,Tier 2,Low,5,26.92,10,Sunday,18
+332,2024-01-14 19:00:00,Personal Care,Soap,264,13,4.4,4,Tier 2,Low,17,14.75,14,Sunday,19
+333,2024-01-14 20:00:00,Beverages,Oranges,177,17,2.84,1,Tier 2,High,93,34.85,14,Sunday,20
+334,2024-01-14 21:00:00,Fruits & Vegetables,Apples,273,5,3.84,9,Tier 2,Regular,21,37.49,5,Sunday,21
+335,2024-01-14 22:00:00,Personal Care,Oranges,258,17,3.04,8,Tier 2,Low,32,39.87,18,Sunday,22
+336,2024-01-14 23:00:00,Fruits & Vegetables,Milk,419,24,2.53,8,Tier 1,Regular,29,32.86,14,Sunday,23
+337,2024-01-15 00:00:00,Fruits & Vegetables,Apples,164,11,3.1,6,Tier 3,Low,80,31.38,2,Monday,0
+338,2024-01-15 01:00:00,Snacks,Shampoo,258,6,4.94,7,Tier 3,Low,31,12.54,12,Monday,1
+339,2024-01-15 02:00:00,Beverages,Soap,63,10,4.5,6,Tier 2,Low,41,16.76,6,Monday,2
+340,2024-01-15 03:00:00,Personal Care,Yogurt,58,11,4.9,9,Tier 3,Low,77,21.3,4,Monday,3
+341,2024-01-15 04:00:00,Dairy,Milk,89,18,3.72,3,Tier 3,Regular,9,32.07,13,Monday,4
+342,2024-01-15 05:00:00,Bakery,Soap,499,22,2.77,3,Tier 3,Regular,35,37.02,4,Monday,5
+343,2024-01-15 06:00:00,Dairy,Shampoo,286,19,3.87,3,Tier 2,Low,33,11.62,14,Monday,6
+344,2024-01-15 07:00:00,Beverages,Soap,330,6,3.64,3,Tier 2,Low,72,37.28,16,Monday,7
+345,2024-01-15 08:00:00,Bakery,Shampoo,408,14,4.61,9,Tier 3,Regular,27,29.35,4,Monday,8
+346,2024-01-15 09:00:00,Beverages,Shampoo,250,16,2.75,4,Tier 3,High,10,26.38,1,Monday,9
+347,2024-01-15 10:00:00,Fruits & Vegetables,Oranges,295,21,3.72,7,Tier 2,High,77,11.99,13,Monday,10
+348,2024-01-15 11:00:00,Bakery,Tea,327,12,2.88,9,Tier 1,Regular,38,6.94,4,Monday,11
+349,2024-01-15 12:00:00,Fruits & Vegetables,Milk,284,15,3.31,7,Tier 3,Low,46,24.9,18,Monday,12
+350,2024-01-15 13:00:00,Dairy,Soap,53,7,4.34,9,Tier 1,Low,18,27.8,6,Monday,13
+351,2024-01-15 14:00:00,Dairy,Bread,203,10,3.69,3,Tier 3,High,14,12.38,3,Monday,14
+352,2024-01-15 15:00:00,Bakery,Milk,491,13,3.44,4,Tier 1,High,27,24.48,13,Monday,15
+353,2024-01-15 16:00:00,Bakery,Tea,78,10,3.49,8,Tier 1,Regular,23,34.98,16,Monday,16
+354,2024-01-15 17:00:00,Personal Care,Milk,158,13,3.65,6,Tier 1,High,71,34.23,5,Monday,17
+355,2024-01-15 18:00:00,Beverages,Chips,147,11,4.46,5,Tier 2,Regular,8,37.46,4,Monday,18
+356,2024-01-15 19:00:00,Personal Care,Bread,264,13,4.73,4,Tier 1,High,46,17.81,8,Monday,19
+357,2024-01-15 20:00:00,Beverages,Tea,342,22,4.89,8,Tier 1,High,32,16.13,19,Monday,20
+358,2024-01-15 21:00:00,Personal Care,Oranges,124,16,4.47,1,Tier 1,High,61,31.23,14,Monday,21
+359,2024-01-15 22:00:00,Fruits & Vegetables,Soap,375,12,3.29,9,Tier 3,Low,96,20.09,7,Monday,22
+360,2024-01-15 23:00:00,Bakery,Coffee,195,12,4.22,1,Tier 1,Low,18,8.06,14,Monday,23
+361,2024-01-16 00:00:00,Dairy,Tea,177,22,3.59,8,Tier 3,Low,66,14.9,6,Tuesday,0
+362,2024-01-16 01:00:00,Beverages,Yogurt,390,24,3.14,4,Tier 1,High,73,19.65,12,Tuesday,1
+363,2024-01-16 02:00:00,Beverages,Soap,91,19,4.6,9,Tier 1,Regular,39,15.24,16,Tuesday,2
+364,2024-01-16 03:00:00,Dairy,Tea,405,11,2.6,5,Tier 2,Regular,46,16.63,17,Tuesday,3
+365,2024-01-16 04:00:00,Personal Care,Chips,90,15,4.75,3,Tier 3,Regular,64,15.28,13,Tuesday,4
+366,2024-01-16 05:00:00,Beverages,Coffee,471,24,3.65,9,Tier 1,Regular,28,6.45,14,Tuesday,5
+367,2024-01-16 06:00:00,Fruits & Vegetables,Chips,83,20,4.09,9,Tier 3,Low,49,27.3,7,Tuesday,6
+368,2024-01-16 07:00:00,Bakery,Coffee,66,8,4.15,4,Tier 3,Low,97,25.91,14,Tuesday,7
+369,2024-01-16 08:00:00,Dairy,Yogurt,214,10,4.74,4,Tier 2,High,12,27.87,15,Tuesday,8
+370,2024-01-16 09:00:00,Bakery,Soap,202,7,4.09,8,Tier 2,High,0,11.73,12,Tuesday,9
+371,2024-01-16 10:00:00,Beverages,Oranges,427,13,4.03,2,Tier 2,Regular,33,15.35,17,Tuesday,10
+372,2024-01-16 11:00:00,Beverages,Chips,125,14,2.67,9,Tier 2,Low,92,26.69,9,Tuesday,11
+373,2024-01-16 12:00:00,Dairy,Chips,136,18,3.8,6,Tier 2,Regular,47,25.99,15,Tuesday,12
+374,2024-01-16 13:00:00,Fruits & Vegetables,Shampoo,166,15,2.88,9,Tier 2,High,76,22.72,12,Tuesday,13
+375,2024-01-16 14:00:00,Snacks,Coffee,411,22,4.34,8,Tier 2,High,47,17.26,2,Tuesday,14
+376,2024-01-16 15:00:00,Dairy,Apples,391,16,3.78,7,Tier 2,Regular,48,36.95,5,Tuesday,15
+377,2024-01-16 16:00:00,Snacks,Soap,76,16,4.2,1,Tier 1,High,63,16.89,13,Tuesday,16
+378,2024-01-16 17:00:00,Personal Care,Coffee,362,17,2.6,3,Tier 3,Regular,60,20.95,8,Tuesday,17
+379,2024-01-16 18:00:00,Snacks,Shampoo,336,17,2.71,2,Tier 2,Low,28,28.73,14,Tuesday,18
+380,2024-01-16 19:00:00,Fruits & Vegetables,Milk,183,23,4.29,5,Tier 2,Regular,38,24.01,15,Tuesday,19
+381,2024-01-16 20:00:00,Personal Care,Coffee,268,23,2.68,5,Tier 3,Low,87,17.14,11,Tuesday,20
+382,2024-01-16 21:00:00,Snacks,Oranges,217,18,2.68,5,Tier 1,Low,25,20.25,1,Tuesday,21
+383,2024-01-16 22:00:00,Personal Care,Soap,147,8,2.53,4,Tier 3,High,16,32.81,3,Tuesday,22
+384,2024-01-16 23:00:00,Snacks,Shampoo,317,17,4.89,5,Tier 3,High,70,14.73,17,Tuesday,23
+385,2024-01-17 00:00:00,Fruits & Vegetables,Milk,286,12,4.34,3,Tier 2,High,12,9.98,19,Wednesday,0
+386,2024-01-17 01:00:00,Snacks,Bread,358,23,3.38,1,Tier 3,Regular,68,15.96,14,Wednesday,1
+387,2024-01-17 02:00:00,Snacks,Shampoo,443,16,3.24,5,Tier 3,Regular,25,34.73,8,Wednesday,2
+388,2024-01-17 03:00:00,Snacks,Bread,222,22,3.37,9,Tier 2,High,48,8.11,13,Wednesday,3
+389,2024-01-17 04:00:00,Dairy,Soap,450,10,4.44,9,Tier 2,Regular,66,39.71,3,Wednesday,4
+390,2024-01-17 05:00:00,Dairy,Chips,459,22,4.15,4,Tier 2,High,6,23.94,5,Wednesday,5
+391,2024-01-17 06:00:00,Dairy,Shampoo,239,23,2.96,3,Tier 2,Regular,57,39.47,9,Wednesday,6
+392,2024-01-17 07:00:00,Fruits & Vegetables,Yogurt,171,9,2.94,1,Tier 3,Low,48,37.86,6,Wednesday,7
+393,2024-01-17 08:00:00,Personal Care,Bread,95,13,2.75,2,Tier 3,Low,52,20.85,2,Wednesday,8
+394,2024-01-17 09:00:00,Beverages,Oranges,113,7,4.15,8,Tier 1,High,64,11.95,13,Wednesday,9
+395,2024-01-17 10:00:00,Snacks,Yogurt,179,14,4.41,1,Tier 1,Regular,61,10.77,5,Wednesday,10
+396,2024-01-17 11:00:00,Snacks,Tea,359,23,3.16,8,Tier 3,Regular,16,13.4,8,Wednesday,11
+397,2024-01-17 12:00:00,Fruits & Vegetables,Tea,412,7,2.55,7,Tier 1,Low,42,29.85,1,Wednesday,12
+398,2024-01-17 13:00:00,Snacks,Milk,242,19,2.71,8,Tier 3,Low,24,14.55,12,Wednesday,13
+399,2024-01-17 14:00:00,Dairy,Chips,356,5,4.92,6,Tier 1,High,2,16.95,11,Wednesday,14
+400,2024-01-17 15:00:00,Beverages,Soap,230,11,3.24,9,Tier 2,Low,78,20.71,7,Wednesday,15
+401,2024-01-17 16:00:00,Bakery,Shampoo,341,16,4.42,3,Tier 1,High,28,36.96,15,Wednesday,16
+402,2024-01-17 17:00:00,Snacks,Apples,420,21,4.06,4,Tier 2,Low,31,11.63,11,Wednesday,17
+403,2024-01-17 18:00:00,Dairy,Oranges,331,24,3.45,6,Tier 2,Low,25,5.18,16,Wednesday,18
+404,2024-01-17 19:00:00,Bakery,Bread,78,9,3.01,8,Tier 2,Regular,15,7.1,3,Wednesday,19
+405,2024-01-17 20:00:00,Beverages,Soap,198,8,2.8,5,Tier 2,Low,24,36.67,14,Wednesday,20
+406,2024-01-17 21:00:00,Bakery,Yogurt,316,16,4.04,3,Tier 1,Low,53,27.66,3,Wednesday,21
+407,2024-01-17 22:00:00,Dairy,Tea,345,24,4.44,6,Tier 3,High,27,14.56,1,Wednesday,22
+408,2024-01-17 23:00:00,Personal Care,Oranges,60,22,4.11,4,Tier 2,Low,72,11.2,15,Wednesday,23
+409,2024-01-18 00:00:00,Personal Care,Apples,213,21,3.83,9,Tier 1,High,55,15.3,1,Thursday,0
+410,2024-01-18 01:00:00,Bakery,Shampoo,162,23,2.6,3,Tier 2,Low,64,9.02,17,Thursday,1
+411,2024-01-18 02:00:00,Fruits & Vegetables,Milk,236,13,4.92,4,Tier 1,Low,92,37.95,2,Thursday,2
+412,2024-01-18 03:00:00,Bakery,Apples,344,8,4.5,7,Tier 1,High,85,32.45,6,Thursday,3
+413,2024-01-18 04:00:00,Snacks,Oranges,281,6,3.23,7,Tier 1,Regular,79,21.18,8,Thursday,4
+414,2024-01-18 05:00:00,Snacks,Apples,276,8,4.95,4,Tier 3,High,40,35.27,16,Thursday,5
+415,2024-01-18 06:00:00,Personal Care,Oranges,359,6,4.0,6,Tier 1,High,50,13.73,19,Thursday,6
+416,2024-01-18 07:00:00,Fruits & Vegetables,Oranges,147,19,3.96,3,Tier 1,High,70,30.1,1,Thursday,7
+417,2024-01-18 08:00:00,Dairy,Coffee,104,6,4.37,6,Tier 3,Regular,77,34.96,3,Thursday,8
+418,2024-01-18 09:00:00,Snacks,Bread,160,8,4.53,2,Tier 3,Low,28,17.49,3,Thursday,9
+419,2024-01-18 10:00:00,Personal Care,Tea,201,10,4.14,8,Tier 1,High,82,31.51,5,Thursday,10
+420,2024-01-18 11:00:00,Beverages,Coffee,295,11,2.82,2,Tier 3,High,18,15.33,12,Thursday,11
+421,2024-01-18 12:00:00,Personal Care,Shampoo,455,14,3.35,7,Tier 2,Regular,65,15.46,12,Thursday,12
+422,2024-01-18 13:00:00,Snacks,Coffee,118,23,4.82,9,Tier 2,High,40,8.75,13,Thursday,13
+423,2024-01-18 14:00:00,Snacks,Chips,361,23,3.06,1,Tier 3,Low,44,20.4,9,Thursday,14
+424,2024-01-18 15:00:00,Personal Care,Chips,338,16,3.43,8,Tier 3,Regular,14,30.54,7,Thursday,15
+425,2024-01-18 16:00:00,Dairy,Tea,299,7,3.58,7,Tier 1,Low,2,37.91,4,Thursday,16
+426,2024-01-18 17:00:00,Bakery,Apples,85,17,3.6,6,Tier 3,Low,10,26.13,19,Thursday,17
+427,2024-01-18 18:00:00,Snacks,Bread,288,22,4.03,6,Tier 1,Regular,52,35.21,19,Thursday,18
+428,2024-01-18 19:00:00,Personal Care,Tea,197,12,4.86,6,Tier 2,High,45,33.79,6,Thursday,19
+429,2024-01-18 20:00:00,Personal Care,Oranges,276,19,3.1,9,Tier 3,Low,29,11.07,13,Thursday,20
+430,2024-01-18 21:00:00,Fruits & Vegetables,Yogurt,293,5,2.8,2,Tier 1,Low,56,22.0,11,Thursday,21
+431,2024-01-18 22:00:00,Bakery,Bread,386,7,2.99,1,Tier 1,Low,17,9.09,13,Thursday,22
+432,2024-01-18 23:00:00,Beverages,Bread,495,12,4.72,6,Tier 2,Low,50,28.88,13,Thursday,23
+433,2024-01-19 00:00:00,Dairy,Oranges,414,8,4.11,8,Tier 3,Regular,47,38.25,15,Friday,0
+434,2024-01-19 01:00:00,Beverages,Oranges,250,20,3.21,3,Tier 2,Regular,65,9.8,13,Friday,1
+435,2024-01-19 02:00:00,Bakery,Milk,203,14,4.54,1,Tier 1,Low,95,30.69,11,Friday,2
+436,2024-01-19 03:00:00,Bakery,Tea,499,16,4.65,9,Tier 1,High,7,27.13,19,Friday,3
+437,2024-01-19 04:00:00,Bakery,Oranges,122,18,4.62,1,Tier 3,Low,21,25.43,8,Friday,4
+438,2024-01-19 05:00:00,Beverages,Chips,250,18,4.8,3,Tier 1,High,5,18.65,8,Friday,5
+439,2024-01-19 06:00:00,Bakery,Shampoo,345,6,3.13,8,Tier 3,Low,75,17.43,10,Friday,6
+440,2024-01-19 07:00:00,Personal Care,Yogurt,66,9,4.39,3,Tier 2,High,56,6.58,16,Friday,7
+441,2024-01-19 08:00:00,Beverages,Tea,178,9,3.65,4,Tier 3,Low,35,12.63,19,Friday,8
+442,2024-01-19 09:00:00,Bakery,Soap,266,10,4.6,8,Tier 3,High,78,5.53,11,Friday,9
+443,2024-01-19 10:00:00,Personal Care,Chips,110,17,4.32,1,Tier 1,Low,91,25.35,13,Friday,10
+444,2024-01-19 11:00:00,Fruits & Vegetables,Apples,476,13,4.44,6,Tier 1,Low,56,8.7,9,Friday,11
+445,2024-01-19 12:00:00,Bakery,Oranges,153,19,4.14,1,Tier 3,High,48,35.56,19,Friday,12
+446,2024-01-19 13:00:00,Beverages,Soap,91,18,2.94,1,Tier 1,Regular,44,23.31,16,Friday,13
+447,2024-01-19 14:00:00,Snacks,Oranges,74,11,3.86,8,Tier 1,High,81,29.49,7,Friday,14
+448,2024-01-19 15:00:00,Bakery,Bread,88,24,4.96,4,Tier 1,Regular,65,19.38,19,Friday,15
+449,2024-01-19 16:00:00,Snacks,Chips,340,6,4.84,1,Tier 3,Low,76,24.62,12,Friday,16
+450,2024-01-19 17:00:00,Personal Care,Bread,180,11,2.61,7,Tier 1,High,44,37.99,15,Friday,17
+451,2024-01-19 18:00:00,Fruits & Vegetables,Milk,278,10,2.91,5,Tier 3,High,78,7.9,14,Friday,18
+452,2024-01-19 19:00:00,Dairy,Bread,157,21,2.83,5,Tier 1,High,19,13.89,11,Friday,19
+453,2024-01-19 20:00:00,Fruits & Vegetables,Milk,221,6,4.31,1,Tier 2,Regular,63,32.3,10,Friday,20
+454,2024-01-19 21:00:00,Bakery,Milk,484,7,4.54,6,Tier 1,Regular,92,8.46,11,Friday,21
+455,2024-01-19 22:00:00,Snacks,Soap,151,9,3.03,9,Tier 1,Low,92,7.65,6,Friday,22
+456,2024-01-19 23:00:00,Snacks,Oranges,403,9,3.76,9,Tier 3,Regular,66,17.65,2,Friday,23
+457,2024-01-20 00:00:00,Beverages,Apples,61,5,4.6,8,Tier 3,Regular,82,8.23,11,Saturday,0
+458,2024-01-20 01:00:00,Snacks,Bread,324,12,4.33,5,Tier 1,Low,2,25.48,19,Saturday,1
+459,2024-01-20 02:00:00,Beverages,Chips,150,16,3.86,1,Tier 2,High,53,12.92,6,Saturday,2
+460,2024-01-20 03:00:00,Personal Care,Milk,93,8,3.98,9,Tier 1,High,77,36.35,14,Saturday,3
+461,2024-01-20 04:00:00,Dairy,Oranges,492,17,3.77,1,Tier 1,Low,63,32.42,6,Saturday,4
+462,2024-01-20 05:00:00,Bakery,Yogurt,354,19,3.24,8,Tier 2,High,39,29.49,17,Saturday,5
+463,2024-01-20 06:00:00,Beverages,Tea,494,15,3.91,5,Tier 3,Regular,58,26.59,10,Saturday,6
+464,2024-01-20 07:00:00,Dairy,Soap,66,14,4.22,3,Tier 1,Low,54,35.22,1,Saturday,7
+465,2024-01-20 08:00:00,Snacks,Apples,379,7,4.68,7,Tier 3,Low,61,12.81,3,Saturday,8
+466,2024-01-20 09:00:00,Snacks,Coffee,106,18,4.09,7,Tier 3,Low,3,35.56,8,Saturday,9
+467,2024-01-20 10:00:00,Dairy,Soap,360,20,4.4,9,Tier 2,High,59,32.63,8,Saturday,10
+468,2024-01-20 11:00:00,Snacks,Yogurt,352,14,2.9,7,Tier 2,Low,74,31.19,15,Saturday,11
+469,2024-01-20 12:00:00,Personal Care,Tea,61,14,3.65,3,Tier 3,Low,94,24.64,7,Saturday,12
+470,2024-01-20 13:00:00,Personal Care,Yogurt,367,16,2.52,1,Tier 1,Low,95,13.62,11,Saturday,13
+471,2024-01-20 14:00:00,Dairy,Bread,129,13,3.12,8,Tier 3,High,90,19.82,7,Saturday,14
+472,2024-01-20 15:00:00,Beverages,Milk,265,5,4.32,3,Tier 1,Regular,29,32.77,4,Saturday,15
+473,2024-01-20 16:00:00,Beverages,Apples,388,9,4.98,8,Tier 1,Low,1,6.11,12,Saturday,16
+474,2024-01-20 17:00:00,Dairy,Shampoo,313,24,2.75,8,Tier 2,Regular,61,32.37,6,Saturday,17
+475,2024-01-20 18:00:00,Beverages,Milk,198,12,3.5,5,Tier 1,High,48,13.4,14,Saturday,18
+476,2024-01-20 19:00:00,Beverages,Shampoo,130,15,4.5,1,Tier 1,High,8,10.05,12,Saturday,19
+477,2024-01-20 20:00:00,Personal Care,Tea,264,16,3.01,7,Tier 3,High,91,9.05,11,Saturday,20
+478,2024-01-20 21:00:00,Beverages,Oranges,423,5,3.89,5,Tier 2,High,30,5.95,19,Saturday,21
+479,2024-01-20 22:00:00,Fruits & Vegetables,Coffee,247,24,4.33,8,Tier 1,Regular,97,23.33,5,Saturday,22
+480,2024-01-20 23:00:00,Bakery,Chips,249,15,4.04,9,Tier 1,Low,60,12.64,14,Saturday,23
+481,2024-01-21 00:00:00,Snacks,Milk,74,9,2.97,7,Tier 2,High,78,39.63,16,Sunday,0
+482,2024-01-21 01:00:00,Fruits & Vegetables,Apples,138,19,3.39,7,Tier 3,High,47,25.11,13,Sunday,1
+483,2024-01-21 02:00:00,Beverages,Yogurt,317,9,4.46,1,Tier 2,Regular,24,9.83,4,Sunday,2
+484,2024-01-21 03:00:00,Personal Care,Apples,192,16,3.89,4,Tier 2,Regular,35,29.11,11,Sunday,3
+485,2024-01-21 04:00:00,Dairy,Tea,108,9,2.51,2,Tier 1,High,7,36.42,17,Sunday,4
+486,2024-01-21 05:00:00,Beverages,Shampoo,459,21,4.4,2,Tier 1,Low,72,31.08,7,Sunday,5
+487,2024-01-21 06:00:00,Personal Care,Yogurt,414,21,2.59,2,Tier 3,Low,57,7.68,14,Sunday,6
+488,2024-01-21 07:00:00,Bakery,Chips,75,16,4.36,4,Tier 1,High,44,36.36,11,Sunday,7
+489,2024-01-21 08:00:00,Beverages,Chips,96,19,3.01,1,Tier 1,Regular,61,32.79,9,Sunday,8
+490,2024-01-21 09:00:00,Dairy,Milk,337,19,4.9,4,Tier 2,High,38,10.54,13,Sunday,9
+491,2024-01-21 10:00:00,Personal Care,Tea,315,10,3.42,2,Tier 1,High,95,6.81,18,Sunday,10
+492,2024-01-21 11:00:00,Personal Care,Oranges,65,16,3.32,5,Tier 3,Regular,57,24.51,11,Sunday,11
+493,2024-01-21 12:00:00,Personal Care,Tea,248,24,2.87,3,Tier 2,High,80,10.46,15,Sunday,12
+494,2024-01-21 13:00:00,Bakery,Shampoo,450,22,3.26,8,Tier 3,High,98,34.21,19,Sunday,13
+495,2024-01-21 14:00:00,Beverages,Apples,456,18,4.69,4,Tier 2,High,82,17.54,1,Sunday,14
+496,2024-01-21 15:00:00,Bakery,Chips,331,6,4.99,1,Tier 1,Regular,63,36.95,4,Sunday,15
+497,2024-01-21 16:00:00,Snacks,Apples,135,13,3.42,1,Tier 2,Low,43,24.8,14,Sunday,16
+498,2024-01-21 17:00:00,Snacks,Apples,299,9,3.62,3,Tier 2,Low,28,11.39,14,Sunday,17
+499,2024-01-21 18:00:00,Beverages,Apples,440,24,4.31,9,Tier 1,Regular,58,9.89,3,Sunday,18
+500,2024-01-21 19:00:00,Bakery,Chips,319,5,4.72,7,Tier 1,Low,70,25.18,17,Sunday,19
